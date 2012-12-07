@@ -15,8 +15,8 @@ int main(int argC, char* args[]) {
  bool repeat;
  map<string, int> values = map<string, int>();
  string line;
- cout << args[1] << endl;
- ifstream file (args[1]);
+ cout << args[2] << endl;
+ ifstream file (args[2]);
  if(file.is_open()) {
   while(file.good()){
    getline(file,line);

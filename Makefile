@@ -2,7 +2,7 @@ CC = g++
 CFLAGS = -Wextra
 
 nice: naughtyNice.cpp
-	$(CC) $(CFLAGS) -c $< 
+	$(CC) $(CFLAGS) -o nice -c $< 
 
 clean:
 	rm -f *.o
